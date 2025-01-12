@@ -13,6 +13,7 @@ public class Main {
             System.out.println("Invalid GPA. Please enter a value between 0.0 and 4.0.");
             return;
         }
+
         // Determine percentage range using Switch-like logic
         String percentRange;
         switch ((int) (gpa * 10)) {
@@ -33,6 +34,21 @@ public class Main {
                 break;
             case 35:
                 percentRange = "91.0% to 90.0%";
+                break;
+            case 34:
+                percentRange = "90.0% to 89.0%";
+                break;
+            case 33:
+                percentRange = "89.0% to 88.0%";
+                break;
+            case 32:
+                percentRange = "88.0% to 87.0%";
+                break;
+            case 31:
+                percentRange = "87.0% to 86.0%";
+                break;
+            case 30:
+                percentRange = "86.0% to 85.0%";
                 break;
             default:
                 percentRange = "<65.0% to 0.0%";
