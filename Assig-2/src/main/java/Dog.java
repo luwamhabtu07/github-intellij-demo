@@ -12,3 +12,4 @@ public class Dog extends Animal {
         System.out.println(name + " is fetching a ball.");
     }
 }
+
